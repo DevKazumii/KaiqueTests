@@ -58,4 +58,5 @@ body{
     #text-frase p{
         color: rgb(214, 152, 201);
         font-size: 1.5em;
+        text-align: center;
     }
