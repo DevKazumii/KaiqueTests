@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #242424;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#button{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#button button{
+        border-style: none;
+        background-color:#242424;
+        color: black;
+        font-family: 'Oswald', sans-serif;
+       
+        outline: none;
+        
+    }
+    
+    #button button:hover{
+        color: white;
+        background-color: rgb(139, 139, 139);
+        transition: .2s;
+        border-radius: 100%;
+        text-shadow: 0 0 0.2em rgb(89, 0, 255);
+    }
+    
+    #button button:active{
+        outline: none;
+        border: none;
+    }
+
+    #titulo{
+        margin-top: 40px;
+        text-shadow: 0 0 0.2em rgb(196, 39, 39), 0 0 0.2em rgb(250, 99, 250);
+        display: flex;
+        justify-content: center;
+        color: rgb(255, 255, 255);
+    }
+    #box-frase{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #text-frase p{
+        color: rgb(214, 152, 201);
+        font-size: 1.5em;
+    }
